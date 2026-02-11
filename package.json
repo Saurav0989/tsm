@@ -1,0 +1,46 @@
+{
+  "name": "tsm",
+  "version": "1.0.0",
+  "description": "Type-safe state machines with compile-time transition validation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "example:traffic": "tsc && node dist/example1-traffic-light.js",
+    "example:order": "tsc && node dist/example2-order-fulfillment.js",
+    "example:types": "tsc && node dist/example3-type-safety.js",
+    "example:protocol": "tsc && node dist/example4-protocol.js",
+    "examples": "npm run example:traffic && npm run example:order && npm run example:types && npm run example:protocol"
+  },
+  "keywords": [
+    "state-machine",
+    "typescript",
+    "type-safe",
+    "compile-time",
+    "fsm",
+    "finite-state-machine",
+    "state",
+    "machine",
+    "transitions",
+    "guards",
+    "actions"
+  ],
+  "author": "Saurav Kumar (Saurav0989)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saurav0989/tsm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Saurav0989/tsm/issues"
+  },
+  "homepage": "https://github.com/Saurav0989/tsm#readme",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}

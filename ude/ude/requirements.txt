@@ -1,0 +1,19 @@
+# Universal Discovery Engine - Dependencies
+
+# Core
+numpy>=1.21.0
+
+# Database
+# (uses built-in sqlite3)
+
+# Optional: Lean 4 for real proofs
+# lean==4.0.0
+
+# Optional: Z3 for SMT solving
+# z3-solver>=4.8.0
+
+# Optional: Neural network support (for learner)
+# torch>=2.0.0
+
+# Web dashboard (built-in http.server)
+# No additional dependencies needed

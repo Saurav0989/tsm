@@ -1,0 +1,34 @@
+[package]
+name = "lattice"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+bincode = "1.3"
+blake3 = "1.5"
+parking_lot = "0.12"
+rand = "0.8"
+tempfile = "3.8"
+
+[[example]]
+name = "demo"
+path = "examples/demo.rs"
+
+[[example]]
+name = "cluster"
+path = "examples/cluster.rs"
+
+[[example]]
+name = "production"
+path = "examples/production.rs"
+
+[[bin]]
+name = "academic_benchmarks"
+path = "benches/academic_benchmarks.rs"
+
+[lib]
+name = "lattice"
+path = "core/lib.rs"

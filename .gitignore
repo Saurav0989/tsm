@@ -21,3 +21,15 @@ yarn-error.log*
 
 # Coverage
 coverage/
+
+# UDE Artifacts
+ude/ude/discovery_log.jsonl
+ude/ude/theorems.db
+ude/ude/__pycache__/
+ude/ude/.ruff_cache/
+ude/ude/checkpoints/
+ude/ude/learning_data/
+ude/ude/verified_proofs/
+ude/ude/*.log
+ude/ude/*.lean
+/tmp/ude_proof_*

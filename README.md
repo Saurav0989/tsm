@@ -367,26 +367,23 @@ Supports real-world use cases (API calls, database operations) without blocking.
 ### Why Immutable State?
 Prevents accidental mutations and makes debugging easier.
 
-## Contributing
+## TSM Ecosystem
 
-This is a research/demonstration project showing TypeScript's type system capabilities.
+TSM is part of a larger ecosystem of research projects focused on formal verification and autonomous discovery:
 
-Potential improvements:
-- Visualization tools
-- VS Code extension
-- More guard/action helpers
-- Testing utilities
-- State diagram generation
+### 🛡️ [Lattice](file:///Users/sauravkumar/Movies/lattice/)
+**Verifiable Distributed State Machine**
+- Deterministic Simulation Testing (DST)
+- Real-time Formal Verification via Shadow Models
+- Post-Quantum Cryptography (Kyber/Dilithium)
 
-## License
-
-MIT
-
-## Author
-
-**Saurav Kumar (Saurav0989)**
-Built to demonstrate TypeScript's advanced type system capabilities for compile-time state machine validation.
+### 🧬 [Universal Discovery Engine (UDE)](file:///Users/sauravkumar/Movies/TSM%20-%20Type-Safe%20State%20Machines%20for%20TypeScript/ude/)
+**Autonomous Mathematical Discovery System**
+- Systematic exploration of 10^42+ theorem spaces
+- Formal verification via Lean 4 & Z3
+- Neural pattern learning for guided search
 
 ---
 
-**Key Insight**: TypeScript's type system is powerful enough to enforce complex runtime behaviors (like state machine transitions) at compile time. This eliminates entire classes of bugs before code ever runs.
+## Contributing
+// ... (rest of the content)

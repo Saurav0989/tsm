@@ -1,0 +1,10 @@
+name = "mathlib"
+version = "0.1.0"
+defaultTargets = ["mathlib"]
+
+[[lean_lib]]
+name = "Mathlib"
+
+[[lean_exe]]
+name = "mathlib"
+root = "Main"

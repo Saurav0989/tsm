@@ -377,7 +377,7 @@ TSM is part of a larger ecosystem of research projects focused on formal verific
 - Real-time Formal Verification via Shadow Models
 - Post-Quantum Cryptography (Kyber/Dilithium)
 
-### 🧬 [Universal Discovery Engine (UDE)](file:///Users/sauravkumar/Movies/TSM%20-%20Type-Safe%20State%20Machines%20for%20TypeScript/ude/)
+### 🧬 [Universal Discovery Engine (UDE)](https://github.com/Saurav0989/ude)
 **Autonomous Mathematical Discovery System**
 - Systematic exploration of 10^42+ theorem spaces
 - Formal verification via Lean 4 & Z3
